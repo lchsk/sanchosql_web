@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111950467-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111950467-1');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="{{description}}">
+    <meta name="keywords" content="{{keywords}}">
+    <meta name="author" content="Maciej Lechowski">
+    <title>{{title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+    <link rel="apple-touch-icon" href="data/favicon.png">
+    <link rel="icon" href="data/favicon.png">
+  </head>
+  <body>
+    <div>
+      <h1>{{title}}</h1>
+    </div>
+    <div>
+      <ul class="menu">
+        <li class="float">{{@features}}</li>
+        <li class="float">{{@downloads}}</li>
+        <li class="float">{{@screenshots}}</li>
+        <li class="float">{{@help}}</li>
+      </ul>
+    </div>
+    <!-- <div> -->
+      <!-- <h3>News</h3> -->
+      <!-- <ul> -->
+        <!-- {{posts-begin}} -->
+        <!-- <li>{{post_link}}</li> -->
+        <!-- {{posts-end}} -->
+      <!-- <ul> -->
+    <!-- </div> -->
+    <div>
+      {{body}}
+    </div>
+  </body>
+</html>
