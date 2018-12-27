@@ -13,3 +13,7 @@ keywords: help, SanchoSQL help and FAQ, desktop database client, postgres, linux
 
 - `Control + W / middle mouse button` Close active tab
 
+- `F5 (in editor)` Execute current query
+
+- `F5 (in table view)` Refresh
+
