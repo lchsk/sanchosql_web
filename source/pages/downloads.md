@@ -7,7 +7,7 @@ keywords: downloads, SanchoSQL downloads, download SanchoSQL, desktop database c
 
 ### v0.1.0 2018-12-28
 
-[`deb`, packages and zipped archives available](https://github.com/lchsk/sanchosql/releases/tag/v0.1)
+[`deb` package and zipped archives available](https://github.com/lchsk/sanchosql/releases/tag/v0.1)
 
 - Show table information: schema, constraints, indexes, statistics
 
