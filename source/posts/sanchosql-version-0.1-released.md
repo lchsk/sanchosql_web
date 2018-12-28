@@ -39,4 +39,4 @@ New version of SanchoSQL (`v0.1`) - Postgres client for Linux - was released. It
 
 Head to {{@downloads}} to get the new version!
 
-See the list of {{@features}} and {{@screenshots}}!
+See the list of {{@features}}!

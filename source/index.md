@@ -6,7 +6,9 @@ keywords: database, postgres, postgresql, sanchosql, sancho, sql, database clien
 
 **SanchoSQL** is a desktop client application for PostgreSQL database. It allows viewing and manipulating database objects.
 
-![SanchoSQL main window](./data/sancho_table_view_1.png "SanchoSQL main window")
+![SanchoSQL main window](./data/version_0_1/sanchosql_editor_1.png "SanchoSQL main window")
+
+**See more:** {{@features}}
 
 ## Main features
 
@@ -22,8 +24,9 @@ SQL editor with syntax highlighting and tab-based user interface with the abilit
 
 - View table information and statistics
 
-**More features:** {{@features}}
+**More features and screenshots:** {{@features}}
 
 ![SanchoSQL](./data/sancho_logo_transparent_40.png "SanchoSQL postgres database client for Linux")
 
-[source code on github](https://github.com/lchsk) | [twitter](https://twitter.com/sanchosql)
+[Source code on github](https://github.com/lchsk) | [Twitter](https://twitter.com/sanchosql) | {{@how-to-connect-to-postgres-on-aws}} | {{@how-to-connect-to-postgres-on-heroku}}
+
