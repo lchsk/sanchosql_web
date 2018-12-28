@@ -28,5 +28,5 @@ SQL editor with syntax highlighting and tab-based user interface with the abilit
 
 ![SanchoSQL](./data/sancho_logo_transparent_40.png "SanchoSQL postgres database client for Linux")
 
-[Source code on github](https://github.com/lchsk) | [Twitter](https://twitter.com/sanchosql) | {{@how-to-connect-to-postgres-on-aws}} | {{@how-to-connect-to-postgres-on-heroku}}
+[Source code on github](https://github.com/lchsk) | [Twitter](https://twitter.com/sanchosql) | {{@how-to-connect-to-postgres-on-aws}} | {{@how-to-connect-to-postgres-on-heroku}} | More: [lchsk.com](https://lchsk.com) | [xstarter.org](https://xstarter.org)
 
