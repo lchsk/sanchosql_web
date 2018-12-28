@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111950467-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111950467-1');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Use SanchoSQL database client to set up a connection to a PostgreSQL instance running on Heroku.">
+    <meta name="keywords" content="Heroku postgres instance, help, SanchoSQL help and FAQ, How to connect to Postgres on Heroku?, desktop database client, postgres, linux, SanchoSQL, GTK+, GTKmm, PostgreSQL on Heroku, heroku">
+    <meta name="author" content="Maciej Lechowski">
+    <title>How to connect to Postgres on Heroku?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+    <link rel="apple-touch-icon" href="data/favicon.png">
+    <link rel="icon" href="data/favicon.png">
+  </head>
+  <body>
+    <div><a href="index.html">SanchoSQL - desktop client for PostgreSQL database</a></div>
+    <div style="max-width: 780px;">
+      <h1>How to connect to Postgres on Heroku?</h1>
+      <p><strong>SanchoSQL</strong> can be used with a Postgres instance running on Heroku. Here's how to do it.</p>
+<h3>Get credentials for Postgres running on Heroku</h3>
+<p>Go to configuration of your Postgres add-on. Click on <strong>View credentials</strong> button.</p>
+<p><img src="./data/heroku_postgres_credentials_1.png" alt="Heroku Postgres credentials" /></p>
+<p>Then, you should see credentials for your database. We'll use them to set up a connection in <strong>SanchoSQL</strong>!</p>
+<p><img src="./data/heroku_postgres_credentials_2.png" alt="Heroku Postgres credentials" /></p>
+<h3>Configure connection in Heroku Postgres in SanchoSQL</h3>
+<ol>
+<li>
+<p>Open SanchoSQL</p>
+</li>
+<li>
+<p>Select <strong>Connections</strong> (shortcut Control-N) option from the menu (<strong>File</strong> -&gt; <strong>Connections</strong>)</p>
+</li>
+<li>
+<p>Click <strong>Add</strong> button in the next window to create a new connection.</p>
+</li>
+</ol>
+<p><img src="./data/sancho_heroku_postgres_setup.png" alt="SanchoSQL - Heroku connection configuration" /></p>
+<p>Now, you need to fill in the connection details (using the values from Heroku):</p>
+<ul>
+<li>
+<p><strong>Connection name</strong> - name that describes this connection</p>
+</li>
+<li>
+<p><strong>Host</strong></p>
+</li>
+<li>
+<p><strong>Database name</strong></p>
+</li>
+<li>
+<p><strong>Port</strong> - <code>5432</code> by default</p>
+</li>
+<li>
+<p><strong>Username</strong></p>
+</li>
+<li>
+<p><strong>Password</strong></p>
+</li>
+</ul>
+<p>When you set all fields - you can click on the <strong>Test connection</strong> button to check if a connection can be established successfully. If you see <strong>Success</strong> - congratulations! It works as expected!</p>
+
+    </div>
+  </body>
+</html>
