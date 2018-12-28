@@ -5,6 +5,12 @@ description: SanchoSQL Help
 keywords: help, SanchoSQL help and FAQ, desktop database client, postgres, linux, SanchoSQL, GTK+, GTKmm
 ---
 
+### Articles
+
+- {{@how-to-connect-to-postgres-on-aws}}
+
+- {{@how-to-connect-to-postgres-on-heroku}}
+
 ### Key shortcuts
 
 - `Control + N` Open connections window
