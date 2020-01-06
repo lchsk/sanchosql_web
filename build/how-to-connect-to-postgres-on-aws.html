@@ -22,59 +22,69 @@
     <link rel="icon" href="data/favicon.png">
   </head>
   <body>
-    <div><a href="index.html">SanchoSQL - desktop client for PostgreSQL database</a></div>
+    <div><a href="index.html" title="SanchoSQL - client application for PostgreSQL - manage your database with SanchoSQL">SanchoSQL - desktop client for PostgreSQL database</a></div>
     <div style="max-width: 780px;">
       <h1>How to connect to Postgres on AWS?</h1>
-      <p><strong>SanchoSQL</strong> can be used with a Postgres instance running on AWS (Amazon RDS). Here's how to do it.</p>
+      <p><strong>SanchoSQL</strong> can be used with a Postgres instance running on AWS (Amazon RDS). Here&rsquo;s how to do it.</p>
+
 <h3>Create a new Postgres database in <a href="https://aws.amazon.com/rds/">Amazon RDS (Relational Database Service) console</a>.</h3>
+
 <p>When creating a new instance, note username and password.</p>
+
 <p>If you already have one, go to the dashboard.</p>
+
 <p>You should see something similar to this:</p>
+
 <p><img src="./data/aws_rds_dashboard.png" alt="AWS Postgres RDS dashboard" /></p>
+
 <p>Take note of <code>DB Name</code>, <code>Endpoint</code>, <code>Port</code>, and <code>Public accessibility</code> (should be set <code>Yes</code>)</p>
+
 <h3>Set up access in security group rules</h3>
-<p><strong>Warning!</strong> The following example will enable establishing connections from all over the Internet. Before doing this, consider your use case and make sure it's safe!</p>
+
+<p><strong>Warning!</strong> The following example will enable establishing connections from all over the Internet. Before doing this, consider your use case and make sure it&rsquo;s safe!</p>
+
 <p>Go to security group rules settings and click on the <strong>Inbound</strong> entry.</p>
+
 <p><img src="./data/aws_security_group_rules.png" alt="AWS security groups" /></p>
+
 <p>Then, check the <strong>Inbound</strong> tab. The settings below enable access from anywhere, so be careful!</p>
+
 <p><img src="./data/aws_postgres_inbound_settings.png" alt="AWS security groups" /></p>
+
 <p>You can also click <strong>Edit</strong> and alter the configuration so that only connections from your IP will be accepted:</p>
+
 <p><img src="./data/aws_postgres_inbound_rules.png" alt="AWS postgres inbound rules" /></p>
+
 <p>After that, we can configure the connection in <strong>SanchoSQL</strong>!</p>
+
 <h3>Configuring connection in SanchoSQL</h3>
+
 <ol>
-<li>
-<p>Open SanchoSQL</p>
-</li>
-<li>
-<p>Select <strong>Connections</strong> (shortcut Control-N) option from the menu (<strong>File</strong> -&gt; <strong>Connections</strong>)</p>
-</li>
-<li>
-<p>Click <strong>Add</strong> button in the next window to create a new connection.</p>
-</li>
+<li><p>Open SanchoSQL</p></li>
+
+<li><p>Select <strong>Connections</strong> (shortcut Control-N) option from the menu (<strong>File</strong> -&gt; <strong>Connections</strong>)</p></li>
+
+<li><p>Click <strong>Add</strong> button in the next window to create a new connection.</p></li>
 </ol>
+
 <p><img src="./data/sanchosql_aws_connection.png" alt="SanchoSQL - AWS connection configuration" /></p>
+
 <p>Now, you need to fill in the connection details:</p>
+
 <ul>
-<li>
-<p><strong>Connection name</strong> - name that describes this connection</p>
-</li>
-<li>
-<p><strong>Host</strong> - corresponds to <strong>Endpoint</strong> from the AWS dashboard</p>
-</li>
-<li>
-<p><strong>Database name</strong> - <strong>DB Name</strong> from the AWS dashboard</p>
-</li>
-<li>
-<p><strong>Port</strong> - <code>5432</code> by default</p>
-</li>
-<li>
-<p><strong>Username</strong> - you've set it when you have created new database</p>
-</li>
-<li>
-<p><strong>Password</strong> - you've set it when you have created new database</p>
-</li>
+<li><p><strong>Connection name</strong> - name that describes this connection</p></li>
+
+<li><p><strong>Host</strong> - corresponds to <strong>Endpoint</strong> from the AWS dashboard</p></li>
+
+<li><p><strong>Database name</strong> - <strong>DB Name</strong> from the AWS dashboard</p></li>
+
+<li><p><strong>Port</strong> - <code>5432</code> by default</p></li>
+
+<li><p><strong>Username</strong> - you&rsquo;ve set it when you have created new database</p></li>
+
+<li><p><strong>Password</strong> - you&rsquo;ve set it when you have created new database</p></li>
 </ul>
+
 <p>When you set all fields - you can click on the <strong>Test connection</strong> button to check if a connection can be established successfully. If you see <strong>Success</strong> - congratulations! It works as expected!</p>
 
     </div>

@@ -1,0 +1,10 @@
+# Base URL of the website
+url = "https://lchsk.com/sanchosql"
+
+[rss]
+# Settings for the RSS feed
+generate_rss = true
+title = "SanchoSQL - PostgreSQL desktop client for Linux"
+description = "SanchoSQL - GNU/Linux PostgreSQL desktop client"
+author_name = "Maciej Lechowski"
+author_email = ""

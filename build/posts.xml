@@ -1,1 +1,15 @@
-<rss version="2.0"><channel><title>lchsk&apos;s blog posts</title><link>https://lchsk.com</link><description>An RSS feed with recent posts from lchsk.com</description><item><title>Version 0.1 released</title><link>https://lchsk.com/sanchosql-version-0.1-released.html</link><description><![CDATA[New version - 0.1 - was released]]></description><pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SanchoSQL - PostgreSQL desktop client for Linux</title>
+    <link>https://lchsk.com/sanchosql</link>
+    <description>SanchoSQL - GNU/Linux PostgreSQL desktop client</description>
+    <managingEditor> (Maciej Lechowski)</managingEditor>
+    <pubDate>Mon, 06 Jan 2020 22:37:14 +0000</pubDate>
+    <item>
+      <title>Version 0.1 released</title>
+      <link>https://lchsk.com/sanchosql/version-0-1-released.html</link>
+      <description>New version - 0.1 - was released</description>
+      <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
